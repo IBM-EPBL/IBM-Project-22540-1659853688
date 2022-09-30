@@ -1,0 +1,23 @@
+{%extends "base.html"%}
+
+{% block head%}
+<title>Signin</title>
+{%endblock%}
+
+{%block body%}
+<div class=''>
+<h1>Welcome to Signin page</h1>
+<table >
+   <form action="/" method="POST">
+
+       <label>Email</label><br>
+       <input type="text" name='email'placeholder="Enter Ur Name"><br><br>
+        
+       <label>Password</label><br>
+       <input type="text" name='pas'placeholder="Enter Ur Password"><br><br>
+       
+      <input type="submit">
+   </form>
+   </table>
+   </div>
+   {%endblock%}

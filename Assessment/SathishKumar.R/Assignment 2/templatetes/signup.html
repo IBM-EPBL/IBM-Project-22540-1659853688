@@ -1,0 +1,28 @@
+{%extends "base.html"%}
+{% block head%}
+<title>Signup</title>
+{%endblock%}
+
+{%block body%}
+<div class="">
+<h1>Welcome to Signup page</h1>
+   <form action="http://127.0.0.1:5000/signin" method="POST">
+       <label>Name</label><br>
+       <input type='text' name='name' placeholder=""><br><br>
+
+       <label>Email</label><br>
+       <input type="text" name='email'placeholder=""><br><br>
+       
+       <label>Phone</label><br>
+       <input type="text" name='phone'placeholder=""><br><br>
+       
+       <label>Password</label><br>
+       <input type="text" name='pas'placeholder=""><br><br>
+       
+       <label>Re-password</label><br>
+       <input type="text" name='repas'placeholder=""><br><br>
+
+       <input type="submit">
+   </form>
+   </div>
+{%endblock%}
