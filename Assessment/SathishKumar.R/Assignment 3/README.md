@@ -1,4 +1,4 @@
-                                                                              ASSIGNMENT 3
+                                                                ASSIGNMENT 3
                                                                               
 - Created Bucket in IBM Object
 - Uploaded 5 pictures in IBM Bucket
