@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<title>Form</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+</head>
+
+
+<body>
+  
+   <div class="login-form">
+    
+    <form action="" class="" method="POST">
+  
+    <h2>Log In</h2>
+
+    <hr class="hr">
+
+      <div class="roles">
+        <select class="role" name="role" required>
+        <option>Select Role</option required>
+        <option>Company</option required>
+        <option>Candidate</option required>
+      
+        </select>
+      </div>
+
+
+<br>
+
+  
+        <div class="form-group">
+     
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+          <br>
+      
+          <input type="password" class="form-control" name="password" placeholder="Password" required>
+          <br>
+
+        <div>
+          <button class="btn">Login</button>
+        </div>
+
+    
+    
+
+ 
+  
+
+    </form>
+   </div>
+  
+
+
+</body>
+
+</html>
+
+      
+
+
+<style>
+  body {
+
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1523287562758-66c7fc58967f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  .form-control {
+    height: 41px;
+    background-color: transparent;
+    box-shadow: 2px 2px 4px black;
+  }
+  .form-control:focus {
+    background: #e2e2e2;
+  }
+ 
+
+  .login-form {
+    width: 400px;
+    margin: 30px auto;
+    border-style:inset;
+    border-radius:30px;
+    border-color: black;
+   
+  }
+  .login-form  {
+    color: #999;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    background: transparent !important;
+
+    padding: 30px;
+  }
+  .login-form h2  {
+    color: #333;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  .hr {
+      margin-right: -9%;
+      margin-left: -9%;
+    }
+
+
+  .btn {
+    display: block;
+    width: 100%;
+    background-color: grey;
+    padding: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #f2f2f2;
+  
+}
+
+.role {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    background-color: transparent;
+    box-shadow: 2px 2px 4px black;
+    color: grey;
+
+}
+
+.roles {
+  justify-content: center;
+  display: flex;
+}
+
+
+
+
+  </style>
