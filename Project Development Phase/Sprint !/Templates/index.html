@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/homepage3.png" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
+      
+      <br><br><br><br>
+      
+    </div>  
+  </section>
+
+
+  <div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
+      <p class="lead text-center"><h3 align = "center">“PNT2022TMID26437"</h3></p>
+       <p align="center">SHRIYA R </p>
+          <p align="center">SATHISH KUMAR R </p>
+           <p align="center">SHRIRAM S K</p>
+            <p align="center">SUJITHA A</p><br>
+
+
+    <p class="lead text-center" ><h5 align = "center"><b>“Saving a life won’t cost you anything. Go ahead and donate Plasma”</b></h5>
+      </p>
+    
+    <p class="text-center">- Anonymous</p>
+    
+  </div>
+  {% include "blood/footer.html" %}
+
+
+</body>
+
+</html>
