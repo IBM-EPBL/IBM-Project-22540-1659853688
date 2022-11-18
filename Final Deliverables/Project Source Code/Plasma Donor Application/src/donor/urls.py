@@ -1,6 +1,4 @@
-from django.urls import path
-
-from django.contrib.auth.views import LoginView
+import LoginView
 from . import views
 urlpatterns = [
     path('donorlogin', LoginView.as_view(template_name='donor/donorlogin.html'),name='donorlogin'),
