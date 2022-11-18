@@ -1,6 +1,6 @@
 
 
-from django.contrib.auth.views import LoginView
+
 from . import views
 urlpatterns = [
     path('patientlogin', LoginView.as_view(template_name='patient/patientlogin.html'),name='patientlogin'),
