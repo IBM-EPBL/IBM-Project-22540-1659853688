@@ -15,7 +15,7 @@ spec:
 
     spec:
       containers:
-        - name: job-portal-1
+        - name: plasma donar-1
           image: jp.icr.io/admin/plasmadonar
           imagePullPolicy: Always
           ports:
