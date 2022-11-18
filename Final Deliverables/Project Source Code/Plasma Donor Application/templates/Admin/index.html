@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/homepage3.png" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
+      
+      <br><br><br><br>
+      
+    </div>  
+  </section>
+
+
+  <div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
+      <h1 align = "center">PLASMA DONAR APPLICATION</h1>
+      <p class="lead text-center"><h3 align = "center">PNT2022TMID26437</h3></p>
+       <p align="center">SHRIYA R </p>
+          <p align="center">SATHISH KUMAR R </p>
+           <p align="center">SHRIRAM S K</p>
+            <p align="center">SUJITHA A</p><br>
+
+
+    <p class="lead text-center" ><h5 align = "center"><b>“Saving a life won’t cost you anything. Go ahead and donate Plasma”</b></h5>
+      </p>
+    
+    <p class="text-center">- Anonymous</p>
+    
+  </div>
+  {% include "blood/footer.html" %}
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "e749f738-9818-4250-8957-6e5f96476f2a", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "55f3153f-bffa-4243-9dd5-48176667599a", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+
+</html>
