@@ -4,7 +4,9 @@
 
 ### PROJECT DOMAIN : CLOUD APPLICATION DEVELOPMENT
 
-## PROJECT DEMO LINK : https://youtu.be/vSb3v7CpVkw
+# PROJECT
+### [PROJECT](https://github.com/IBM-EPBL/IBM-Project-22540-1659853688/tree/main/Final%20Deliverables/Project%20Report)
+### PROJECT DEMO LINK : https://youtu.be/vSb3v7CpVkw
 
 # IBM-Project-22540-1659853688
 
