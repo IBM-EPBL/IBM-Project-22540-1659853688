@@ -5,7 +5,7 @@
 ### PROJECT DOMAIN : CLOUD APPLICATION DEVELOPMENT
 
 # PROJECT
-### [PROJECT REPORT](https://github.com/IBM-EPBL/IBM-Project-22540-1659853688/tree/main/Final%20Deliverables/Project%20Report)
+### [PROJECT REPORT](https://github.com/IBM-EPBL/IBM-Project-22540-1659853688/blob/main/Final%20Deliverables/Project%20Report/IBM%20PROJECT%20REPORT.pdf)
 ### [PROJECT DEMO](https://youtu.be/vSb3v7CpVkw)
 
 
