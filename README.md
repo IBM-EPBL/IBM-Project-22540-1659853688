@@ -16,4 +16,10 @@
 <li> Sujitha A</li>
 
 
+# Project Deliverables
+* [Assignments](https://github.com/IBM-EPBL/IBM-Project-22540-1659853688/tree/main/Assessment)
+* [Project Design & Planning](https://github.com/IBM-EPBL/IBM-Project-22540-1659853688/tree/main/Pre-Development)
+* [Project Development Phase](https://github.com/IBM-EPBL/IBM-Project-22540-1659853688/tree/main/Project%20Development%20Phase)
+* [Final Deliverables](https://github.com/IBM-EPBL/IBM-Project-22540-1659853688/tree/main/Final%20Deliverables)
+
 
